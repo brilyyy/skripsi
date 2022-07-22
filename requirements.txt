@@ -1,0 +1,11 @@
+requests
+bs4
+progressbar
+langdetect
+translators
+Sastrawi
+nltk
+numpy
+matplotlib
+sklearn
+scipy
