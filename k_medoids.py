@@ -193,13 +193,12 @@ for i, document in enumerate(documents):
     array.append(new)
 
 X = np.array(array)
-log(X)
 titles = []
 
 for document in documents:
     titles.append(document['judul'])
 
-kmedoids = KMedoids(n_clusters=5).fit(X)
+kmedoids = KMedoids(n_clusters=4).fit(X)
 
 print("--- %s seconds ---" % (time.time() - start_time))
 
